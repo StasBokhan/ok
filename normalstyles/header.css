@@ -1,0 +1,128 @@
+.header {
+  margin-bottom: 140px;
+}
+.header__box {
+  padding-top: 92px;
+  padding-bottom: 100px;
+  background: url(../images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header__box-inner {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 74px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  display: block;
+  width: 82px;
+  height: 52px;
+  margin-right: 63px;
+}
+.header__logo img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.header__menu {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background: #000000;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header__menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu-item:not(:last-child) {
+  margin-right: 58px;
+}
+.header__menu-column--first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.header__menu-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__content-box {
+  width: 465px;
+  height: 465px;
+  border-radius: 50%;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  position: relative;
+  margin-bottom: 60px;
+}
+.header__content-text {
+  position: absolute;
+  top: 74px;
+  left: 74px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 106.496px;
+  line-height: 75%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 500px;
+}
+.header__content-text span {
+  color: #ffee2e;
+}
+.header__content-button {
+  display: flex;
+  width: 298px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 25px;
+}
+.header__content-button:active {
+  background-color: #4b9200;
+  position: relative;
+  top: 1px;
+}
+.header__menu {
+  z-index: 6;
+}

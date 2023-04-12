@@ -1,0 +1,108 @@
+.footer {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  background-color: #111115;
+}
+.footer .second-footer {
+  display: none;
+}
+.footer .footer-head {
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-head .footer-left .footer-logo {
+  display: block;
+  width: 82px;
+  height: 52px;
+}
+.footer .footer-head .footer-left .btn.footer {
+  display: none;
+}
+.footer .footer-head .footer-right .first {
+  display: none;
+}
+.footer .footer-head .footer-right .footer-title {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 14px;
+}
+.footer .footer-head .footer-right .email .btn {
+  padding: 10px 40px;
+  background: #f1f3f2;
+  border: 1px solid #333b41;
+  border-radius: 5px;
+  color: #000000;
+  display: inline-block;
+}
+.footer .footer-head .footer-right .email .fot-input {
+  padding: 10px 10px;
+  margin-right: 5px;
+  background-color: #111115;
+  border: 1px solid #f9804b;
+}
+.footer .btn .foot {
+  padding: 15px 0px 15px 0px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 44px;
+  background-color: #fe9013;
+}
+.footer .btn.footer:active {
+  background-color: #4b9200;
+  position: relative;
+  top: 1px;
+}
+.footer li {
+  display: flex;
+  align-items: center;
+}
+.footer .pos {
+  margin-right: 12px;
+  position: relative;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(196, 196, 196, 0.5);
+}
+.footer .pos img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer .footer-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-menu .second-list {
+  display: flex;
+  -moz-column-gap: 48px;
+  column-gap: 48px;
+}
+.footer .footer-menu .second-list .second-list-item.active {
+  color: #f9804b;
+}
+.footer .footer-menu .second {
+  align-self: flex-end;
+}
+.footer .footer-menu .third {
+  align-self: flex-end;
+}
+.footer .footer-menu .third-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.footer .footer-menu .third-list .third-list-item {
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}

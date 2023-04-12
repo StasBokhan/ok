@@ -1,0 +1,237 @@
+@media screen and (max-width: 1000px) {
+  .container {
+    max-width: 1060px;
+    padding: 0px 30px;
+  }
+  .section-second .block {
+    padding: 10px 65px 46px;
+  }
+}
+@media screen and (max-width: 638px) {
+  .section-second .block {
+    padding: 10px 0px 30px;
+  }
+  .undertext{
+  text-align: center;
+  }
+  .header__menu-list {
+    display: none;
+  }
+  .header__menu-text {
+    display: none;
+  }
+  .header__menu-item.right{
+    margin-right: 58px;
+  }
+  .burger-menu {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+  }
+  .burger-menu::after {
+    content: "";
+    background-color: #fdfbfb;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+  }
+  .burger-menu::before {
+    content: "";
+    background-color: #fdfbfb;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 0;
+  }
+  .burger-menu span {
+    position: absolute;
+    background-color: #fdfbfb;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+  }
+  .header__menu.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #efeff1;
+    color: #000;
+  }
+  .header__menu-list.active .header__menu-item .text {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+  }
+  .header__menu-column.header__menu-column--first {
+    flex-direction: column;
+    row-gap: 30px;
+    align-self: flex-start;
+    align-items: center;
+  }
+  .header__menu-link.active {
+    color: #000;
+  }
+  .header__menu-list.active {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .container.header__inner.active {
+    display: flex;
+    flex-direction: column;
+  }
+  .burger-menu.active {
+    top: 35px;
+    right: 230px;
+  }
+  .header__menu-item.text {
+    display: block;
+  }
+  .container{
+    max-width: 678px;
+    padding: 0px 20px;
+  }
+  .footer {
+    padding: 12px 20px;
+  }
+  .footer .container {
+    padding: 0px;
+  }
+  .footer .container .btn.footer {
+    display: none;
+  }
+  .footer .footer-head {
+    margin-bottom: 0px;
+  }
+  .footer .footer-head .footer-left .footer-logo {
+    margin-bottom: 32px;
+  }
+  .footer .footer-head .footer-left .btn.footer {
+    display: block;
+  }
+  .footer .footer-head .footer-right .email {
+    display: none;
+  }
+  .footer .footer-head .footer-right .footer-title {
+    display: none;
+  }
+  .footer .footer-head .footer-right .first {
+    display: flex;
+    margin-bottom: 42px;
+  }
+  .footer .footer-head .footer-right .first .first-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .footer .footer-head .footer-right .first .first-list .logo-name {
+    display: none;
+  }
+  .footer .footer-menu {
+    justify-content: space-between;
+  }
+  .footer .footer-menu .first {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  @keyframes bob {
+    100%{
+      top: -9px;
+      left: -9px;
+      height: 23px;
+      width: 23px;
+    }
+    
+  }
+  @keyframes bobs {
+    100%{
+      left: -4px;
+      top: -4px;
+      height: 13px;
+      width: 13px;
+    }  
+  }
+  .container {
+    max-width: 320px;
+    padding: 0px 10px;
+    margin: 0 auto;
+  }
+  .footer {
+    padding: 20px 11px;
+  }
+  .feed-a-friend-btn{
+    width: 100%;
+  }
+  .section-second .block .newgal .cost{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #333B41;
+  }
+  .section-second .block .line{
+    height: 13.5px;
+    padding: 3.5px 17.5px;
+  }
+  .section-second .block .line .gal .inp{
+    width: 5px;
+    height: 5px;
+  }
+  .section-second .block .line .gal{
+    top: -3px;
+  }
+  .footer .pos {
+    margin: 0 auto;
+  }
+  .footer .first-footer {
+    display: none;
+  }
+  .footer .second-footer {
+    display: block;
+  }
+  .footer .second-footer .second-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .footer .second-footer .second-list .second-list-item.active {
+    color: #fe9013;
+  }
+  .footer .second-footer .third-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 18px;
+    row-gap: 13px;
+    margin-bottom: 30px;
+  }
+  .footer .second-footer .btn {
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  .footer .second-footer .logo {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .footer .second-footer .logo .abso {
+    position: absolute;
+    top: -4px;
+    right: 112px;
+  }
+  .footer .second-footer .list {
+    margin-bottom: 30px;
+    padding: 0px 51px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
